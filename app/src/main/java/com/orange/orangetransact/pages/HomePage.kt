@@ -9,43 +9,52 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 
-
 @Composable
-fun HomePage(){
-
+fun HomePage() {
 }
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
-fun HomeBody(){
+fun HomeBody() {
     Scaffold(containerColor = Color.White) {
-        Column(modifier= Modifier.fillMaxSize()) {
+        Column(modifier = Modifier.fillMaxSize()) {
+            Row(modifier = Modifier.fillMaxWidth().weight(1f)) {
+                Box(
+                    modifier =
+                        Modifier
+                            .weight(1f)
+                            .background(Color.Green)
+                            .fillMaxHeight(),
+                )
 
-            Row (modifier= Modifier.fillMaxWidth().weight(1f)) {
-
-                Box(modifier= Modifier.weight(1f)
-                    .background(Color.Green).fillMaxHeight())
-
-                Box(modifier= Modifier.weight(1f)
-                    .background(Color.Blue).fillMaxHeight())
+                Box(
+                    modifier =
+                        Modifier
+                            .weight(1f)
+                            .background(Color.Blue)
+                            .fillMaxHeight(),
+                )
             }
 
-            //Text("Hello World")
-            Box(modifier= Modifier.weight(1f)
-                .background(Color.Red).fillMaxWidth())
+            // Text("Hello World")
+            Box(
+                modifier =
+                    Modifier
+                        .weight(1f)
+                        .background(Color.Red)
+                        .fillMaxWidth(),
+            )
         }
     }
-
 }
 
 @Composable
 @Preview
-fun HomeBodyPreview(){
+fun HomeBodyPreview() {
     HomeBody()
 }
