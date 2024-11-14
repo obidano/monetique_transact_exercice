@@ -1,4 +1,4 @@
-package com.orange.orangetransact.pages.components
+package com.orange.orangetransact.pages.dashboard.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -23,7 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.orange.orangetransact.models.ActionItemData
+import com.orange.orangetransact.business.models.ActionItemData
 
 @Composable
 fun Actions(){

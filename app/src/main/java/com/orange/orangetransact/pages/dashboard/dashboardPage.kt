@@ -1,4 +1,4 @@
-package com.orange.orangetransact.pages
+package com.orange.orangetransact.pages.dashboard
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
@@ -11,9 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.orange.orangetransact.pages.components.Actions
-import com.orange.orangetransact.pages.components.Balance
-import com.orange.orangetransact.pages.components.Header
+import com.orange.orangetransact.pages.dashboard.components.Actions
+import com.orange.orangetransact.pages.dashboard.components.Balance
+import com.orange.orangetransact.pages.dashboard.components.Header
 
 @Composable
 fun DashboardPage() {

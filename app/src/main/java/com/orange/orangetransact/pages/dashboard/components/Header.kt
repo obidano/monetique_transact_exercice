@@ -1,4 +1,4 @@
-package com.orange.orangetransact.pages.components
+package com.orange.orangetransact.pages.dashboard.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
