@@ -1,4 +1,4 @@
-package com.orange.orangetransact.models
+package com.orange.orangetransact.business.models
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

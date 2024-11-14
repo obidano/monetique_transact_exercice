@@ -1,4 +1,4 @@
-package com.orange.orangetransact.models
+package com.orange.orangetransact.business.models
 
 data class SavingsData(
     val title: String,
